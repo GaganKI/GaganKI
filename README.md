@@ -68,7 +68,7 @@ I pick up new tech fast when the problem is interesting. I use AI tools to help 
 - 💡 I can explain every part of this — model architecture, training, API, schema
 - **Stack:** `Python` `Flask` `YOLOv8m` `MiDaS` `PostgreSQL` `PostGIS` `React`
 
-[View Repo →](https://github.com/GaganKI)
+[View Repo →](https://github.com/GaganKI/pothole-project)
 
 ---
 
