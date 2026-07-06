@@ -8,7 +8,7 @@
 ║  → AIML student. Fast learner. Curious builder.          ║
 ║  → Excited by ML systems, backend challenges, DL         ║
 ║  → Still figuring out the niche. Enjoying the process.  ║
-║  → Open to internships: mid-2025 ▮                       ║
+║  → Open to internships: mid-2026 ▮                       ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
@@ -77,7 +77,7 @@ I pick up new tech fast when the problem is interesting. I use AI tools to help 
 
 - **Stack:** `React` `PostgreSQL` `MongoDB` `Pandas` `PowerBI`
 
-[View Repo →](https://github.com/GaganKI)
+[View Repo →]([https://github.com/GaganKI](https://github.com/GaganKI/pothole-project))
 
 ---
 
