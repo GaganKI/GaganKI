@@ -1,145 +1,75 @@
-<!-- Header -->
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════╗
-║  ~/gagan $ python -c "print('who am i?')"               ║
-║                                                          ║
-║  → AIML student. Fast learner. Curious builder.          ║
-║  → Excited by ML systems, backend challenges, DL         ║
-║  → Still figuring out the niche. Enjoying the process.  ║
-║  → Open to internships: mid-2026 ▮                       ║
-╚══════════════════════════════════════════════════════════╝
-```
-
 # Gagan K I
 
-**`ML · Backend · Deep Learning · AIML @ PESITM Shivamogga`**
+**Final-year B.E. student in AI & ML (VTU, 2027) building ML systems with real backends behind them.**
+Python · FastAPI / Flask · PostgreSQL · PyTorch · Docker
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gagan-ijantkar-29aa91292)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://gaganki.github.io)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
-![Views](https://komarev.com/ghpvc/?username=GaganKI&style=flat-square&color=c8a96e)
+Based in Shivamogga, Karnataka. Looking for **ML and backend engineering internships**, Bangalore or remote.
 
-</div>
+[Portfolio](https://gaganki.github.io) · [LinkedIn](https://www.linkedin.com/in/gagan-ijantkar-29aa91292) · [Email](mailto:gaganijantkar7518@gmail.com)
 
 ---
 
-## About me — honestly
+## What I build
 
-I'm a 6th semester B.E. AIML student who builds things at the intersection of **ML systems and backend engineering**. My most meaningful project is a Smart Pothole Detection pipeline — real computer vision, real geospatial backend, something I can explain end-to-end.
+I like the part of ML that comes after the notebook: serving a model behind an API, storing its output in a database, and putting it somewhere a person can use it. I use AI tools to move faster, and I only ship what I can explain and rewrite myself.
 
-I'm still figuring out my exact niche, but I know what gets me going: deep learning internals, backend systems with real constraints, and problems where building the right architecture matters.
+## Projects
 
-I pick up new tech fast when the problem is interesting. I use AI tools to help me move faster — and I make sure I understand everything I ship.
+### SmartRoad: pothole detection and road monitoring
+YOLOv8m detects potholes from road imagery, a MiDaS depth model estimates severity, and a Flask API stores detections with GPS coordinates in PostgreSQL/PostGIS. A React front end shows them on a map and supports live detection.
 
-- 🔭 Currently building: **Smart Pothole Detection** — CV + depth estimation + PostGIS backend
-- 🧠 Actively learning: **Deep Learning** properly — not just APIs, the actual mechanics
-- 📈 Daily habit: **LeetCode in Python** — Arrays → HashMaps → Trees → Graphs
-- 🎯 Target: **ML / Backend internship** — Bangalore preferred, remote open
-- 📍 Shivamogga, Karnataka
+- Trained on 19,000+ annotated road instances. Current results: **0.66 recall, 0.46 mAP**. Improving recall is the next goal.
+- Deployed end to end: front end on Vercel, inference API on Hugging Face, database on Render.
+- Stack: `Python` `Flask` `YOLOv8m` `MiDaS` `React` `PostgreSQL` `PostGIS`
 
----
+[Live demo](https://pothole-project-uw6k.vercel.app) · [Code](https://github.com/GaganKI/pothole-project)
 
-## Honest skills audit
+### ADAPTO-MULE: transaction fraud detection *(in development)*
+A fraud-detection backend with JWT-authenticated transaction APIs. The design centres on graph-based anomaly scoring of suspicious transaction patterns, with a Dockerised local setup.
 
-| Skill | Where I actually am |
-|---|---|
-| Python | Building confidence — growing every day |
-| Flask | Most comfortable backend tool |
-| ML / Deep Learning | Actively learning — this is what excites me |
-| PostgreSQL + MongoDB | Used in real projects, not deep yet |
-| OpenCV + CV libraries | Hands-on project experience |
-| React | Concepts solid, built projects with it |
-| Node.js | Used in projects, still learning |
-| DSA (Python) | Daily LeetCode grind — genuinely improving |
-| System Design | Self-studying — this excites me |
+- Stack: `Python` `FastAPI` `PostgreSQL` `Docker` `PyTorch Geometric`
 
----
+### ExplainSomatic: somatic mutation detection with explainability *(final-year project, in progress)*
+A dual-stream CNN + Transformer model for detecting somatic mutations, with Grad-CAM explanations and VAF-aware loss weighting so very-low-frequency variants are not drowned out. Built on the SEQC2 HCC1395 dataset, supervised by Dr. Likewin Thomas.
 
-## Featured projects
+- Stack: `PyTorch` `Python` `Google Colab`
 
-### 🟢 Smart Pothole Detection System *(Ongoing · 2025)*
-> The one I know inside-out. Real-time road damage detection using computer vision and depth estimation, with a geospatial backend for city-wide road health analytics.
+### CRM lead importer
+A full-stack tool that imports and structures CRM leads with the Gemini API, built as a take-home assignment.
 
-- 📊 **0.66 Recall · 0.46 mAP** trained on **19,000+ instances**
-- 🗺️ PostGIS backend for geospatial road health querying
-- 🔬 Depth estimation pipeline for pothole severity scoring
-- 💡 I can explain every part of this — model architecture, training, API, schema
-- **Stack:** `Python` `Flask` `YOLOv8m` `MiDaS` `PostgreSQL` `PostGIS` `React`
+- Stack: `Next.js` `Node.js` `Gemini API`
 
-[View Repo →](https://github.com/GaganKI/pothole-project)
+[Live demo](https://crm-lead-importer-beta.vercel.app)
+
+### Earlier work
+- **Closed-loop precision agriculture ML system**: temporal sensor-data pipeline with automated labelling and a multi-output classifier for irrigation and nutrient recommendations (`Scikit-learn`)
+- **KIA Car Showroom DBMS**: multi-role admin, sales and customer system replacing Excel workflows (`React` `PostgreSQL` `MongoDB` `Power BI`)
+- **Real-time vehicle detection**: YOLOv5 + OpenCV with a live GUI and parking status (`Python` `Tkinter`)
+- **College Finder, Karnataka**: REST API with server-side filtering (`Node.js` `MongoDB`)
 
 ---
 
-### 🟢 KIA Car Showroom DBMS *(Ongoing · 2024–2025)*
-> Multi-role system replacing Excel workflows. Admin, sales, customer portals. Where I learned to think about data modelling and real users.
+## Skills
 
-- **Stack:** `React` `PostgreSQL` `MongoDB` `Pandas` `PowerBI`
+| Area | Tools |
+| --- | --- |
+| Languages | Python, JavaScript |
+| ML / CV | PyTorch, Scikit-learn, YOLOv5/v8, OpenCV, Pandas, NumPy |
+| Backend | FastAPI, Flask, REST APIs, JWT auth |
+| Data | PostgreSQL, PostGIS, MongoDB |
+| Tooling | Git, Docker, Vercel, Hugging Face, Render |
+| Fundamentals | DSA, OOP, DBMS, OS, Computer Networks |
 
-[View Repo →]([https://github.com/GaganKI](https://github.com/GaganKI/pothole-project))
+## Right now
 
----
+- Finishing my final-year research project (ExplainSomatic)
+- Building out ADAPTO-MULE
+- Raising pothole-detection recall
+- Practising DSA in Python and making open-source contributions (next: Flask/FastAPI docs, PyTorch Geometric)
 
-### ✅ Vehicle Detection System *(2024)*
-> My first end-to-end CV project. Real-time detection, live GUI, parking status. Where I got comfortable going from model to working screen.
+## Recognition
 
-- **Stack:** `Python` `YOLOv5` `OpenCV` `Tkinter`
+TCS TechBytes 2024 (4th, regional) · Smart India Hackathon 2024 and 2025 · Google GDSC 2025 · MongoDB certification · IEEE Press Conference volunteer, PESITM
 
----
-
-### ✅ College Finder — Karnataka *(2024)*
-> Full-stack college directory with RESTful APIs and server-side filtering. First time I thought seriously about API design.
-
-- **Stack:** `Node.js` `MongoDB` `REST API` `HTML/CSS/JS`
-
----
-
-## What I'm focused on right now
-
-```python
-right_now = {
-    "dsa":          "LeetCode daily — Arrays, HashMaps, Two Pointers next",
-    "ml_learning":  "Going deep on DL — backprop, attention, training dynamics",
-    "open_source":  "First PR goal: this month — docs or small bug fix",
-    "building":     "Improving Pothole Detection — target 0.75+ Recall",
-    "goal_2025":    "ML / Backend internship — somewhere ML actually matters"
-}
-```
-
----
-
-## GitHub stats
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=GaganKI&show_icons=true&theme=transparent&hide_border=true&title_color=c8a96e&icon_color=c8a96e&text_color=888888&bg_color=0a0a0a)
-
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GaganKI&layout=compact&theme=transparent&hide_border=true&title_color=c8a96e&text_color=888888&bg_color=0a0a0a)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=GaganKI&theme=dark&hide_border=true&ring=c8a96e&fire=c8a96e&currStreakLabel=c8a96e&background=0a0a0a&sideLabels=888888&stroke=c8a96e)
-
-</div>
-
----
-
-## Achievements
-
-| | |
-|---|---|
-| 🏆 TCS TechBytes 2024 | 4th Place — Regional Level |
-| ⚡ Smart India Hackathon | 2024 + 2025 Participant |
-| 🔷 Google GDSC 2025 | Participant |
-| 🎯 Hackyugma — JNNCE | Inter-college Hackathon |
-| 🍃 MongoDB Certified | MongoDB University |
-| 📡 IEEE Volunteer | PESITM Press Conference |
-
----
-
-<div align="center">
-
-*"Still figuring it out — but building the whole way."*
-
-[![Connect](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gagan-ijantkar-29aa91292)
-
-</div>
+![Stats](https://github-readme-stats.vercel.app/api?username=GaganKI&show_icons=true&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GaganKI&layout=compact&hide_border=true)
